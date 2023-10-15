@@ -19,8 +19,7 @@ Our project uses the following technologies and tools:
 
 - **Frontend**:
   - HTML, CSS, JavaScript
-  - React.js
-  - idk what else
+  - Next.js
   
 - **Backend**:
   - Python
