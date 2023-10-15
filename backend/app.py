@@ -4,7 +4,7 @@ import subprocess
 import os
 
 app = Flask(__name__)
-CORS(app)  # Initialize CORS with your app instance
+CORS(app)
 
 
 @app.route('/generate', methods=['POST'])
@@ -17,7 +17,6 @@ def generate_music():
     generated_music = create_music(chords, key, bpm)
     
     response = make_response(jsonify({'music': generated_music}))
-    response.headers['Access-Control-Allow-Origin'] = 'http://127.0.0.1:5174'  # Allow requests from your React app
     return response
 
 def create_music(chords, key, bpm):

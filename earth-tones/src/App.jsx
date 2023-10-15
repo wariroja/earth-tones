@@ -7,7 +7,7 @@ function App() {
   const [music, setMusic] = useState(null);
 
   const generateMusic = async () => {
-    const response = await fetch('http://localhost:5000/generate', {
+    const response = await fetch('http://127.0.0.1:5000/generate', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -15,7 +15,9 @@ function App() {
       body: JSON.stringify({ chords, key, bpm }),
     });
 
-    const data = await response.json();
+    console.log(response)
+
+    const data = response.json();
     setMusic(data.music);
   };
 
