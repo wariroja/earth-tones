@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+input[type="text"] {
+  /* ... your existing styles for the textbox ... */
+  height: 40px;  /* or any desired height */
+  flex: 1;  /* make it take available space */
+}
+
+button {
+  width: 75px;  /* match this width with the textbox height */
+  height: 75px; /* match this height with the textbox height */
+  background-color: transparent;
+  border: 1px solid #61dafb;  /* Same as background color for seamless blending */
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;  /* Spacing between textbox and buttons */
+  font-size: 35px;
+}
+
+.real-textbox {
+  padding: 16px;
+  border: 1px solid #61dafb;  /* Same as background color for seamless blending */
+  border-radius: 4px;
+  font-size: 26px;
+  width: 700px;
+  margin-right: 10px;  /* Spacing between textbox and buttons */
+  background-color: #282c34;  /* Same as the background */
+  color: #ffffff;  /* Set text color to white or any other contrasting color for readability */
+}
+
+.input-container {
+  padding: 16px;
+  display: flex;
+  align-items: center; /* This will vertically center the textbox and buttons */
+}
