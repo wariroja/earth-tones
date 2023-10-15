@@ -1,5 +1,4 @@
-# earth-tones
-# TedAI Hackathon - Earth Tones
+# Earth Tones
 
 ## Introduction
 Welcome to the Earth Tones team's project for the TedAI Hackathon! We are excited to harness the transformative power of AI for good and contribute to the community by creating a website that generates music based on mood, serving as a form of music therapy. Our mission is to provide personalized music experiences that help users improve their emotional well-being.
