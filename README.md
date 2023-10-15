@@ -30,10 +30,9 @@ Our project uses the following technologies and tools:
   - Sentiment analysis libraries
   
 - **Database**:
-  - idk
+  - LangChain
+  - PlanetScale
   
-- **Deployment**:
-  - idk
 
 Thank you for joining us on this journey to harness the power of AI for good and make a positive impact on the community through music therapy. Together, we can create a harmonious and uplifting experience for all users. Happy hacking! 🎵🌍 #EarthTonesHackathon
 
