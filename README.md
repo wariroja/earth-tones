@@ -36,3 +36,6 @@ Our project uses the following technologies and tools:
   - idk
 
 Thank you for joining us on this journey to harness the power of AI for good and make a positive impact on the community through music therapy. Together, we can create a harmonious and uplifting experience for all users. Happy hacking! 🎵🌍 #EarthTonesHackathon
+
+## Citations
+- [1] A. Aljanaki, F. Wiering, R. C. Veltkamp. Studying emotion induced by music through a crowdsourcing game. Information Processing & Management, 2015.
