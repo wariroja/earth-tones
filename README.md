@@ -14,6 +14,14 @@ Our project aims to build a web-based application that offers the following feat
 - AI Music Generation: Our AI model will use the mood analysis, personalized preferences, and target mood to generate music tracks tailored to the user's needs.
 - User Feedback: Users can provide feedback on the generated music to improve future sessions.
 
+
+
+
+https://github.com/wariroja/earth-tones/assets/40623643/37295442-cc0f-4076-9dc8-1af57113784e
+
+
+
+
 ## Technology Stack
 Our project uses the following technologies and tools:
 
@@ -31,7 +39,10 @@ Our project uses the following technologies and tools:
 - **Database**:
   - LangChain
   - PlanetScale
-  
+
+## Next steps: 
+
+- Integrate analyzed data with sound generation API and enable user to add to save to their spotify playlist 
 
 Thank you for joining us on this journey to harness the power of AI for good and make a positive impact on the community through music therapy. Together, we can create a harmonious and uplifting experience for all users. Happy hacking! 🎵🌍 #EarthTonesHackathon
 
